@@ -18,4 +18,6 @@ jobs:
             - uses: actions/upload-artifact@master
               with:
                   name: ntrview
-                  path: "build/*.wuhb"
+                  path: | 
+                      "build/*.wuhb" 
+                      "build/*.rpx"
